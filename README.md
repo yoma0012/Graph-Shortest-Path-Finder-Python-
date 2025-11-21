@@ -46,3 +46,19 @@ Shortest path from Lagos to Johannesburg:
 ['Lagos', 'Accra', 'Cairo', 'Johannesburg']
 
 Process finished with exit code 0
+
+---
+
+## 🧠 High-Level Algorithm (Simple Explanation)
+Each city is added as a vertex in the graph.
+Direct routes between cities are added as edges.
+The graph builds an adjacency matrix to show which cities are directly connected.
+A shortest path method explores the graph layer by layer starting from Lagos, keeping track of visited cities and their predecessors.
+When Johannesburg is reached, the program reconstructs the path by walking back through the predecessors and prints the result.
+
+---
+
+## 📬 Contact
+Ogheneyoma Elim Ebresafe
+📧 
+Feel free to review the code or analysis document and reach out with feedback, suggestions, or opportunities.
